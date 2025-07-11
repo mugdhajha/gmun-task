@@ -19,9 +19,9 @@ export default function Hero() {
         <p className={styles.subtitle}>
           Where Future Diplomats Rise to Tackle the Challenges of a Changing World
         </p>
-        
-        <button className={styles.actionbtn}>Join now</button>
-       
+        <Link href="#about" scroll={true}>
+          <button className={styles.actionbtn}>Start here</button>
+        </Link>
       </motion.div>
 
       <div className={styles.right}>

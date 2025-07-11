@@ -46,7 +46,7 @@
 }
 
 .section a:hover {
-  color: #f39c12; /* highlight on hover */
+  color: #f39c12;
 }
 
 .socials {
@@ -72,22 +72,6 @@
   font-size: 0.85rem;
   opacity: 0.7;
 }
-
-/* LIGHT THEME */
-html.light .footer {
-  background: rgba(255, 255, 255, 0.9);
-  color: #111;
-  border-top: 1px solid #ddd;
-}
-
-/* DARK THEME */
-html.dark .footer {
-  background: rgba(20, 20, 20, 0.9);
-  color: #f5f5f5;
-  border-top: 1px solid #333;
-}
-
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .content {
     flex-direction: column;

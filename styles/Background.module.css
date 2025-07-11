@@ -17,15 +17,14 @@
   background-size: cover;
   background-position: center;
   opacity: 1;
-  /* filter: blur(4px) brightness(1); */
   animation: fadeFloat 25s ease-in-out infinite alternate;
 }
 
-.lightTheme {
+.light {
   background-image: url("/bg2.png");
 }
 
-.darkTheme {
+.dark {
   background-image: url("/bg1.png");
 }
 

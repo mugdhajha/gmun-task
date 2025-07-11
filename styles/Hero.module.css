@@ -175,6 +175,9 @@
     width: 220px;
     height: 220px;
   }
+  .left{
+    text-align: center;
+  }
 
   .logopic {
     width: 100%;

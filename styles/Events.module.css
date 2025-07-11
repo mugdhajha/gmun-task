@@ -70,16 +70,3 @@
   color: inherit;
   line-height: 1.4;
 }
-
-/* Light theme */
-html.light .card {
-  background: rgba(255, 255, 255, 0.8);
-  color: #111;
-}
-
-/* Dark theme */
-html.dark .card {
-  background: rgba(25, 25, 25, 0.6);
-  color: #f0f0f0;
-}
-

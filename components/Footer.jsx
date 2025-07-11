@@ -1,5 +1,5 @@
 import styles from "../styles/Footer.module.css";
-import { FaInstagram, FaLinkedin, FaEnvelope,FaFacebook } from "react-icons/fa";
+import { FaInstagram, FaEnvelope,FaFacebook } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -30,9 +30,6 @@ export default function Footer() {
             <a href="https://www.facebook.com/p/Global-MUN-IIT-Kharagpur-100088188648912/" target="_blank" rel="noreferrer">
               <FaFacebook />
             </a>
-            {/* <a href="https://in.linkedin.com/company/communiqu%C3%A9-iit-kharagpur" target="_blank" rel="noreferrer">
-              <FaLinkedin />
-            </a> */}
             <a href="mailto:gmun@kgpian.iitkgp.ac.in">
               <FaEnvelope />
             </a>
