@@ -24,12 +24,13 @@
     width: auto;
     transition: transform 0.3s ease;
 }
-/* From Uiverse.io by Cevorob */
 
  .seperator{
     display: flex;
     gap: 2rem;
  }
+/* From Uiverse.io by Cevorob */
+
  /* Burger base */
 .burger {
   display: none;

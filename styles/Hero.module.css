@@ -11,19 +11,16 @@
   background: transparent;
 }
 .dark{
-  /* background: radial-gradient(circle at 60% 40%, #313dc3, #030303); */
   color: white;
 }
 .dark .herocon::before {
   content: "";
   position: absolute;
   inset: 0;
-  /* background: radial-gradient(circle at 70% 30%, rgba(255, 0, 70, 0.15), transparent 60%); */
   z-index: 0;
 }
 
 .light{
-    /* background: radial-gradient(circle at 60% 40%,#faf8f0, #f5f0e6); */
   background-repeat: no-repeat;
   background-size: cover;
   color: #0e0e0e;    
@@ -32,15 +29,12 @@
   content: "";
   position: absolute;
   inset: 0;
-  /* background: radial-gradient(circle at 70% 30%, rgba(255, 200, 200, 0.3), transparent 60%); */
   z-index: 0;
 }
 
 .left {
   flex: 1;
   min-width: 300px;
-  /* background-color: #a54949; */
-  /* z-index: 1000; */
 }
 
 .right {
@@ -50,10 +44,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: #384dd5; */
 }
 
-/* Typography */
 .title {
   font-size: 3rem;
   font-weight: 700;
@@ -71,7 +63,6 @@
 .light .subtitle{
     color: #3a3939;
 }
-/* CTA Button */
 .actionbtn {
   background-color: #bb7410;
   color: white;
@@ -89,7 +80,6 @@
   transform: scale(1.05);
 }
 
-/* Logo Container */
 .logocon {
   position: relative;
   width: 100%;
@@ -127,7 +117,7 @@
   padding: 1rem;
   transition: transform 0.3s ease;
   perspective: 1000px;
-  background-color: rgba(255, 255, 255, 0.08); /* fallback glassmorphism */
+  background-color: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 
@@ -142,13 +132,11 @@
   transition: filter .3s ease;
 }
 
-/* DARK THEME: glowing logo */
 .dark .logopic {
   filter: brightness(1.2) saturate(1.1);
   box-shadow: 0 0 40px rgba(255, 100, 100, 0.4);
 }
 
-/* LIGHT THEME: clean look with light shadow */
 .light .logopic {
   filter: brightness(1);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);

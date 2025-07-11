@@ -1,6 +1,6 @@
 # GMUN-Task
 
-The GMUN homepage is more than just an introduction—it’s a welcoming space where young changemakers can explore, connect, and be inspired. It shares the heart of Global Model United Nations through stories, events, and opportunities that encourage dialogue, leadership, and global friendship.
+The GMUN homepage is more than just an introduction—it’s a welcoming space where young changemakers can explore, connect, and be inspired. It shares the heart of Global Model United Nations through stories, events, and opportunities that encourage dialogue, leadership, and global friendship.  
 This website was created as part of the task round for Communiqué at IIT Kharagpur, reflecting a commitment to creative storytelling, thoughtful design, and purposeful impact through digital platforms.
 
 ## Live Deployment
