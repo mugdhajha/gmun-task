@@ -5,7 +5,7 @@ This website was created as part of the task round for Communiqué at IIT Kharag
 
 ## Live Deployment
 
-The website is deployed at : 
+The website is deployed at : https://admirable-queijadas-835578.netlify.app/
 
 ## Features
 

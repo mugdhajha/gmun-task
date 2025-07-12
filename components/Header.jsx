@@ -7,9 +7,11 @@ import { useTheme } from "next-themes";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const {theme}=useTheme();
+  const [mounted, setMounted] = useState(false);
+  const { theme } = useTheme();
 
   useEffect(() => {
+    setMounted(true); // Wait until mounted to access theme
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
     };
@@ -19,6 +21,8 @@ export default function Header() {
   }, []);
 
   const toggleMenu = () => setIsOpen(!isOpen);
+
+  if (!mounted) return null; 
 
   return (
     <header className={`${styles.header} ${theme === "dark" ? styles.dark : styles.light}`}>
